@@ -22,7 +22,7 @@ export default function TodoList() {
 				value={todo}
 				placeholder="enter task"
 				onChange={(event) => setTodo(event.target.value)}
-			></input>
+			/>
 			<button onClick={() => addTodo()}>add</button>
 			<ul>
 				{todos.map((todo, index) => (

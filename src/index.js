@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import TodoList from "./Http/RemoteTodoList";
 import reportWebVitals from "./reportWebVitals";
-import TodoList from "./TodoList/TodoList";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
